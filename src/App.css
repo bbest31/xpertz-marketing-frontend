@@ -5,6 +5,13 @@
   
 }
 .hr { background-color: white; height: 2px; border: 0; width: 60% }
+.full-hr {
+  background-color: rgba(148, 148, 148, 0.952);
+  height: 3px;
+  border: 0;
+  width: 100%;
+  margin: 0;
+} 
 
 .level{
   font-size: 48px;

@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col,Button } from 'react-bootstrap';
 import LogoSymbolLeft from './asset/LogoSymbolLeft.png'
 import AllLevelLogo1 from './asset/HR.png'
 import AllLevelLogo2 from './asset/Symbol.png'
 import AllLevelLogo3 from './asset/Frame.png'
 import AllLevelLogo4 from './asset/EveryoneIcon.png'
+import xsection1 from './asset/xsection1.png'
+import xsection2 from './asset/xsection2.png'
+import xsection3 from './asset/xsection3.png'
+import xsection4 from './asset/xsection4.png'
+import xsection from './asset/X.png'
 function App() {
 
   return (
@@ -63,6 +68,30 @@ function App() {
         <Col xs={3} style={{backgroundColor:"white",paddingTop:2+"rem"}}>  UPPER MANAGEMENT</Col>
         <Col xs={3} style={{backgroundColor:"white",paddingTop:2+"rem"}}>  EVERYONE ELSE</Col>
       </Row> */}
+      </div>
+      <hr className="full-hr">
+        </hr>
+
+      <div style={{backgroundColor:"white", color:"black",fontSize:28,fontWeight:"bold"}}>
+        <Row>
+          <Col xs={3} > <img height="240" width="260" src={xsection1} /> <p className="pt-1">LARGE SCALE COLLABORATION</p></Col>
+          <Col xs={6} ></Col>
+          <Col xs={3} > <img height="240" width="260" src={xsection2} /> <p className="pt-1">ANALYTICS INTO COLLABORATION EFFORTS</p></Col>
+        </Row>
+        <img style={{}} height="240" width="260" src={xsection} />
+        <Row>
+          <Col xs={3}> <img height="240" width="260" src={xsection3} alt="Logo" /> <p className="pt-1">SKILLED BASED TARGETED HIRING</p></Col>
+          <Col xs={6}></Col>
+          <Col xs={3}> <img height="240" width="260" src={xsection4} alt="Logo" /> <p className="pt-1">ACCURATE RESOURCE ALLOCATION</p></Col>
+        </Row>
+      </div>
+      <div>
+      <Row style={{color:"white",fontSize:48,fontWeight:"bold",paddingTop:4+"rem",paddingBottom:4+"rem"}}>
+          <Col xs={12} ><p className="pt-3">JOIN OUR NEWS LETTER FOR UPDATES</p>
+          <Button style={{backgroundColor:"white",color:"black",fontSize:42,fontWeight:"bold"}} type="button" class="btn btn-secondary btn-lg">Join NewsLetter</Button>
+          </Col>
+  
+      </Row>
       </div>
     </Container>
     </div>
