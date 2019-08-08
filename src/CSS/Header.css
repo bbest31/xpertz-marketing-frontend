@@ -1,0 +1,14 @@
+.header{
+    background-color: #1A4983;
+    padding-left: 100px;
+}
+.header-link a{
+    padding-top: 1.5rem;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-link{
+    padding-top: 24px;
+}

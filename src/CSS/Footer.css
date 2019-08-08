@@ -1,0 +1,69 @@
+.upper-part{
+    background-color: white;
+}
+.footer-logo-div img{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.footer-links p{
+    font-size: 30px;
+    margin-bottom:0; 
+}
+
+.footer-links a{
+    font-size: 30px;
+    display: block;
+}
+
+.footer-links hr{
+    height: 1px;
+    background-color: black;
+    margin-top: 0;
+}
+.lower-part{
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+.lower-part .flex-row a{
+    color: black;
+    font-size: 25px;
+}
+
+.terms{
+    margin-right: 70px;
+}
+
+.upper-part{
+    padding: 70px 0 100px 0;
+}
+
+.copyright{
+    margin-top: 30px;
+    color: #9a9fa5;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .footer-links a{
+        font-size: 20px;
+    }
+    .footer-links p{
+        font-size: 20px;
+    }
+    .lower-part .flex-row a{
+        font-size: 18px;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+    .upper-part{
+        padding: 40px 0 70px 0;
+    }
+    .join-news-letter p{
+        font-size: 25px;
+    }
+    .join-news-letter button{
+        font-size: 20px !important;
+    }
+}
