@@ -1,0 +1,17 @@
+
+import React from 'react';
+import '../CSS/Header.css';
+import { Container, Row, Col,Button } from 'react-bootstrap';
+import xSmall from '../asset/x-small.png'
+
+function NewsLetter() {
+    return (
+            <div>
+                <Button style={{backgroundColor:"white",color:"black",fontSize:42}} type="button" className="btn btn-secondary btn-lg">
+                    <img src={xSmall} alt="Logo" height="48" /> Join NewsLetter
+                </Button>
+            </div>
+    );
+}
+
+export default NewsLetter

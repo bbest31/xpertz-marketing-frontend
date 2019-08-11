@@ -6,7 +6,7 @@ function DashCarousel(){
     let cs = []
     for(let i=0;i<5;i++){
         cs.push(
-            <Carousel.Item className="dashboard-carousel-item">
+            <Carousel.Item className="dashboard-carousel-item" key={i}>
                 <div className="d-flex flex-row justify-content-center flex-wrap">
                     <div className="d-flex col-xs-12 col-md-6 flex-column justify-content-center">
                         <div>

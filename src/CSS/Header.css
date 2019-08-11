@@ -1,12 +1,20 @@
-.header{
+
+.header-bg{
     background-color: #1A4983;
-    padding-left: 100px;
+}
+.header{
+    width: 90%;
+    margin: 0 auto;
 }
 .header-link a{
     padding-top: 1.5rem;
-    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    font-size: 22px;
     color: white;
     text-decoration: none;
+    font-family: 'Kiona', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 .header-link{

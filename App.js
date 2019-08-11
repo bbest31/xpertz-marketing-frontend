@@ -90,7 +90,7 @@ function App() {
       <div>
       <Row style={{color:"white",fontSize:48,fontWeight:"bold",paddingTop:4+"rem",paddingBottom:4+"rem"}}>
           <Col xs={12} ><p className="pt-3">JOIN OUR NEWS LETTER FOR UPDATES</p>
-          <Button style={{backgroundColor:"white",color:"black",fontSize:42,fontWeight:"bold"}} type="button" class="btn btn-secondary btn-lg">Join NewsLetter</Button>
+          <Button style={{backgroundColor:"white",color:"black",fontSize:42,fontWeight:"bold"}} type="button" className="btn btn-secondary btn-lg">Join NewsLetter</Button>
           </Col>
   
       </Row>

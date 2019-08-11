@@ -1,0 +1,37 @@
+@font-face{
+    font-family: "Kiona";
+    src: url('../font/kiona/Kiona-Regular.ttf'),
+    /* url('../font/kiona/Kiona-Regular.ttf');  IE */
+}
+body, h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Kiona', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.pricing-bg {
+    text-align: center;
+    background: #194888 !important;
+    color: white;
+  }
+
+
+
+/* pricing table design */  
+  .panel {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .price-table1{
+    background: linear-gradient(97.7deg, #1177B2 12.43%, #50F4FF 113.18%);
+  }
+
+  .price-table2{
+    background: linear-gradient(97.7deg, #15831A 12.43%, #0BFF23 153.79%);
+  }
+
+  .price-table3{
+    background: linear-gradient(97.7deg, #CE6F00 12.43%, #FFD058 153.79%);
+  }
