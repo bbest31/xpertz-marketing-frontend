@@ -1,0 +1,129 @@
+
+@font-face{
+    font-family: "Kiona";
+    src: url('../font/kiona/Kiona-Regular.ttf'),
+    /* url('../font/kiona/Kiona-Regular.ttf');  IE */
+}
+
+/* pricing table design */  
+.panel {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .pricing-plan{
+    padding: 0;
+  }
+
+  .price-table1{
+    background: linear-gradient(97.7deg, #1177B2 12.43%, #50F4FF 113.18%);
+    padding: 0;
+  }
+
+  .price-table2{
+    background: linear-gradient(97.7deg, #15831A 12.43%, #0BFF23 153.79%);
+    padding: 0;
+  }
+
+  .price-table3{
+    background: linear-gradient(97.7deg, #CE6F00 12.43%, #FFD058 153.79%);
+    padding: 0;
+  }
+
+  .page-head{
+    text-decoration: none;
+    font-family: 'Kiona', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+.package-title{
+    text-decoration: none;
+    font-family: 'Kiona', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+}
+.pricing-header1{
+    font-family: Lato;
+    font-size: 48px
+}
+
+.pricing-header2{
+    font-family: Lato;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.pricing-header3{
+    font-family: Lato;
+    font-size: 48px;
+    padding-left: 0;
+}
+.price-icon{
+    font-size: 18px;
+    padding-right: 0;
+    padding-top: 10px;
+}
+
+.pricing-features{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.pricing-features li{
+    border-bottom: 0.50px solid #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.pricing-features li:first-child{
+    border-top: none;
+}
+
+.pricing-features li:last-child{
+    border-bottom: none;   
+}
+
+/* 1st table */
+.pricing-features1{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.pricing-features1 li{
+    border-bottom: 0.50px solid #FFFFFF;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px; 
+    text-align: right;
+    text-transform: uppercase;
+    font-family: Kiona;
+}
+
+.pricing-features1 li:first-child{
+    border-top: none;
+}
+
+.pricing-features1 li:last-child{
+    border-bottom: none;   
+}
+
+.price-table-top{
+    height: 172px;
+}
+
+.package3{
+    margin-top: -15px;
+}
+
+.coming-soon{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
