@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/pricing.css';
-import { Container, Row, Col,Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import NewsLetter from '../components/NewsLetter'
 import TikIcon from "../asset/done_24px.png";
 import XIcon from "../asset/X-icon.png";

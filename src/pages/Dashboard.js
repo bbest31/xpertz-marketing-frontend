@@ -104,11 +104,11 @@ function Dashboard() {
         </div>
       </div>
       <Row style={{color:"white",fontSize:48,fontWeight:"bold",paddingTop:4+"rem",paddingBottom:6+"rem"}}>
-                    <Col xs={12} className="join-news-letter" >
-                        <p className="pt-3">JOIN OUR NEWS LETTER FOR UPDATES</p>
-                        <NewsLetterButton></NewsLetterButton>
-                    </Col>
-                </Row>
+          <Col xs={12} className="join-news-letter" >
+              <p className="pt-3">JOIN OUR NEWS LETTER FOR UPDATES</p>
+              <NewsLetterButton></NewsLetterButton>
+          </Col>
+      </Row>
       
 
 

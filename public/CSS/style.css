@@ -12,4 +12,83 @@ body, h1, h2, h3, h4, h5, h6, p{
     text-align: center;
     background: #194888 !important;
     color: white;
-  }
+}
+
+.founder-name{
+    font-family: 'Kiona', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.founder-msg{
+    font-family: 'Kiona', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 110%;
+    letter-spacing: 0.05em;
+}
+
+.contact-head{
+    color: #4F4F4F;
+}
+.contact-2nd{
+    color: #828282;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.send-btn{
+    background: #2EA664;
+    border-radius: 3px;
+}
+
+.check-btn-area{
+    width: 55%;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.form-check-input{
+    background: linear-gradient(180deg, #C4C4C4 51.85%, #838991 177.78%);
+    border: 1px solid #4F4F4F;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.privacy-1{
+    font-family: Kiona;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #4F4F4F;
+}
+.privacy-2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.privacy-content{
+    padding: 20px;
+    border: 1px solid #000000;
+}

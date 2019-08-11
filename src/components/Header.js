@@ -10,7 +10,7 @@ function Header() {
         <Container fluid={true} className="header-bg">
             <Row className="header" style={{paddingTop:1.5+"rem"}}>
                 <Col xs={12} sm={4} md={4}>
-                    <img src={LogoSymbolLeft} className="responsive" alt="Xpertz" />
+                <Link href="/"><img src={LogoSymbolLeft} className="responsive" alt="Xpertz" /></Link>
                 </Col>
                 <Col className="header-link" >
                     <Link href="/">home</Link>

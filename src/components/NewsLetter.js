@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../CSS/Header.css';
-import { Container, Row, Col,Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import xSmall from '../asset/x-small.png'
 
 function NewsLetter() {
