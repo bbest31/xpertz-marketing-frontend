@@ -1,12 +1,13 @@
-
-.header-bg{
+.header-bg {
     background-color: #1A4983;
 }
-.header{
+
+.header {
     width: 90%;
     margin: 0 auto;
 }
-.header-link a{
+
+.header-link a {
     padding-top: 1.5rem;
     line-height: 29px;
     letter-spacing: 0.05em;
@@ -17,6 +18,14 @@
     text-transform: uppercase;
 }
 
-.header-link{
+.header-link {
     padding-top: 24px;
+}
+
+.hidden {
+    display: none;
+}
+
+.has_error {
+    border: red 1px solid;
 }
