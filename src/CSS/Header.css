@@ -29,3 +29,35 @@
 .has_error {
     border: red 1px solid;
 }
+.modal-content{
+    width:40rem !important
+}
+
+.rsMedia{
+    width: 10px !important;
+}
+
+.imgSizing{
+    padding-bottom: 6px;
+}
+.fxLabelMargin{
+    margin-bottom: 0rem !important;
+}
+
+.fxTxtMarginBottom{
+    margin-bottom:1rem;
+}
+@media screen and (max-width:768px){
+    .modal-content{
+      width: 24rem !important;
+  
+    }
+    .modal-body{
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
+    .csButton{
+        font-size: 24 !important;
+        width: 8rem !important;
+      }
+  }

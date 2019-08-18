@@ -69,34 +69,35 @@ function NewsLetter() {
         <section>
             <div onClick={handleShow}>
                 <Button style={{ backgroundColor: "white", color: "black", fontSize: 42 }} type="button" className="btn btn-secondary btn-lg">
-                    <img src={xSmall} alt="Logo" height="48" /> Join Newsletter
+                    <img className="imgSizing" src={xSmall} alt="Logo" height="48" /> Join Newsletter
                 </Button>
             </div>
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} size="md">
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <div className={show_success ? "alert alert-success message_info show" : "alert alert-success message_info hidden"}>{msg}</div>
                         <div className={show_error ? "alert alert-danger message_info show" : "alert alert-danger message_info hidden"}>{msg}</div>
                     </div>
                 </div>
-                <Modal.Header closeButton>
-                    <Modal.Title>Newsletter</Modal.Title>
+                <Modal.Header  style={{display:"grid", justifyContent:"center", border:"none"}}>
+                    <Modal.Title style={{fontSize:48, fontWeight:"300"}}>Join Newsletter</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body style={{paddingRight:10 +"rem",paddingLeft:10 +"rem"}}>
                     <Form>
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" id="email" placeholder="Enter email" inputRef={(ref) => { this.email = ref }} required />
-                            <Form.Text className="text-muted">
-                                We'll never share your email with anyone else.
-                        </Form.Text>
+                            <Form.Label className="fxLabelMargin">Email address</Form.Label>
+                            <Form.Control className="fxTxtMarginBottom" size="sm" type="email" id="email"  inputRef={(ref) => { this.email = ref }} required />
+                            <Form.Label className="fxLabelMargin">Role in company or group</Form.Label>
+                            <Form.Control size="sm" type="email" id="email"  inputRef={(ref) => { this.email = ref }} required />
+        
+        
+
                         </Form.Group>
                     </Form>
                 </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>Close</Button>
-                    <Button variant="primary" onClick={submitnewsletter}>Submit</Button>
+                <Modal.Footer style={{display:"grid", justifyContent:"center",padding:3+"rem",border:"none"}}>
+                    <Button  className="csButton" size="lg" variant="primary" style={{width:12 +"rem",fontSize:36, fontWeight:"300"}} onClick={submitnewsletter}>Join</Button>
                 </Modal.Footer>
             </Modal>
         </section>

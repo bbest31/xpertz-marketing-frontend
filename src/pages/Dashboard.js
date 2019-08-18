@@ -39,11 +39,11 @@ function Dashboard() {
           </Row>
           <Row style={{ color: "black" }}>
             <Col xs={12} sm={6} md={3} style={{ backgroundColor: "white", paddingTop: 2 + "rem", fontSize: 20 }}>
-              <img height="160" width="220" src={AllLevelLogo1} alt="" />
+              <img height="160" width="200" src={AllLevelLogo1} alt="" />
               <p className="pt-3">HUMAN RESOURCES</p>
             </Col>
             <Col xs={12} sm={6} md={3} style={{ backgroundColor: "white", paddingTop: 2 + "rem", fontSize: 20 }}>
-              <img height="126" width="188" src={AllLevelLogo2} valt="" />
+              <img height="160" width="188" src={AllLevelLogo2} valt="" />
               <p className="pt-3">PROJECT MANAGEMENT</p>
             </Col>
             <Col xs={12} sm={6} md={3} style={{ backgroundColor: "white", paddingTop: 2 + "rem", fontSize: 20 }}>
@@ -51,7 +51,7 @@ function Dashboard() {
               <p className="pt-3">UPPER MANAGEMENT</p>
             </Col>
             <Col xs={12} sm={6} md={3} style={{ backgroundColor: "white", paddingTop: 2 + "rem", fontSize: 20 }}>
-              <img height="156" width="174" src={AllLevelLogo4} alt="" />
+              <img height="160" width="174" src={AllLevelLogo4} alt="" />
               <p className="pt-3">EVERYONE ELSE</p>
             </Col>
           </Row>
@@ -107,7 +107,7 @@ function Dashboard() {
         <Row style={{ color: "white", fontSize: 48, fontWeight: "bold", paddingTop: 4 + "rem", paddingBottom: 6 + "rem" }}>
           <Col xs={12} className="join-news-letter" >
             <p className="pt-3">JOIN OUR NEWS LETTER FOR UPDATES</p>
-            <NewsLetterButton></NewsLetterButton>
+            <NewsLetterButton> </NewsLetterButton>
           </Col>
         </Row>
 

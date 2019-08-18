@@ -21,7 +21,7 @@ function Header() {
                 <Col className="header-link" >
                     <Link href="/about">about</Link>
                 </Col>
-                <Col className="header-link" >
+                <Col className="header-link rsMedia" >
                     <Link href="/contact">contact us</Link>
                 </Col>
             </Row>
