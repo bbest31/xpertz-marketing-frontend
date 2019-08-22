@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // 123
 import './App.css';
 import { Container, Row, Col, Button,Modal } from 'react-bootstrap';
 import LogoSymbolLeft from './asset/LogoSymbolLeft.png'
