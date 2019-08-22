@@ -13,12 +13,14 @@ function NewsLetter() {
     const [show_error, setShowError] = useState(false);
     const [show_success, setShowSuccess] = useState(false);
     const [msg, setMsg] = useState('');
+    const [loader,setLoader] = useState('loaderhide');
     const handleClose = () => setShow(false);
     const handleShow = () => {
         setShow(true);
         setShowError(false);
         setShowSuccess(false);
         setMsg('');
+        setLoader('loaderhide');
     }
     const validateEmail = (email) => {
         var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -40,6 +42,7 @@ function NewsLetter() {
         }
 
         if (count_error == 0) {
+            setLoader('loader');
             const data = "email=" + email;
             fetch(Constant.FIREBASE_URL + "/newsletter", {
                 method: 'POST',
@@ -61,6 +64,7 @@ function NewsLetter() {
                             setShowSuccess(false);
                             setMsg(result.msg);
                         }
+                        setLoader('loaderhide');   
                     },
                 )
         }
@@ -72,6 +76,8 @@ function NewsLetter() {
                     <img className="imgSizing" src={xSmall} alt="Logo" height="48" /> Join Newsletter
                 </Button>
             </div>
+
+            <div className={loader}></div>
 
             <Modal show={show} onHide={handleClose} size="md">
                 <div className="row">
