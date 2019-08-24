@@ -39,19 +39,19 @@ function Dashboard() {
           </Row>
           <Row style={{ color: "black" }}>
             <Col xs={12} sm={6} md={3} style={{ backgroundColor: "white", paddingTop: 2 + "rem", fontSize: 20 }}>
-              <img height="160" width="200" src={AllLevelLogo1} alt="" />
+              <img width="50%" src={AllLevelLogo1} alt="" />
               <p className="pt-3">HUMAN RESOURCES</p>
             </Col>
             <Col xs={12} sm={6} md={3} style={{ backgroundColor: "white", paddingTop: 2 + "rem", fontSize: 20 }}>
-              <img height="160" width="188" src={AllLevelLogo2} valt="" />
+              <img width="50%" src={AllLevelLogo2} valt="" />
               <p className="pt-3">PROJECT MANAGEMENT</p>
             </Col>
             <Col xs={12} sm={6} md={3} style={{ backgroundColor: "white", paddingTop: 2 + "rem", fontSize: 20 }}>
-              <img height="160" width="220" src={AllLevelLogo3} alt="" />
+              <img width="50%" src={AllLevelLogo3} alt="" />
               <p className="pt-3">UPPER MANAGEMENT</p>
             </Col>
             <Col xs={12} sm={6} md={3} style={{ backgroundColor: "white", paddingTop: 2 + "rem", fontSize: 20 }}>
-              <img height="160" width="174" src={AllLevelLogo4} alt="" />
+              <img width="50%" src={AllLevelLogo4} alt="" />
               <p className="pt-3">EVERYONE ELSE</p>
             </Col>
           </Row>
@@ -69,35 +69,35 @@ function Dashboard() {
             <div className="d-flex flex-column col-md-4 col-xs-12">
               <div className="d-flex flex-row justify-content-center">
                 <div className="x-section">
-                  <img src={xsection1} />
-                  <p className="pt-1">LARGE SCALE COLLABORATION</p>
+                  <img src={xsection1}/>
+                  <p className="pt-1"><strong>LARGE SCALE COLLABORATION</strong></p>
                   <p className="sub d-none d-sm-block">Search for colleagues by skill to find the right person to solve problems</p>
                 </div>
               </div>
               <div className="d-flex flex-row justify-content-center">
                 <div className="x-section">
                   <img src={xsection3} alt="Logo" />
-                  <p className="pt-1">SKILLED BASED TARGETED HIRING</p>
+                  <p className="pt-1"><strong>SKILLED BASED TARGETED HIRING</strong></p>
                   <p className="sub d-none d-sm-block">See how your employees are performing and structural changes are having an impact</p>
                 </div>
               </div>
             </div>
             <div className="d-none flex-column col-4 justify-content-center d-md-flex">
-              <img className="d-none d-sm-block ml-auto mr-auto x-image" height="240" width="260" src={xsection} />
+              <img className="d-none d-sm-block ml-auto mr-auto x-image" width="260" src={xsection} />
             </div>
             <div className="d-flex flex-column col-md-4 col-xs-12">
 
               <div className="d-flex flex-row justify-content-center">
                 <div className="x-section">
-                  <img src={xsection2} height="192" width="229" />
-                  <p className="pt-1">ANALYTICS INTO COLLABORATION EFFORTS</p>
+                  <img src={xsection2}/>
+                  <p className="pt-1"><strong>ANALYTICS INTO COLLABORATION EFFORTS</strong></p>
                   <p className="sub d-none d-sm-block">quickly identify the skills in high demand for targeting in your recruitment</p>
                 </div>
               </div>
               <div className="d-flex flex-row justify-content-center">
                 <div className="x-section">
                   <img src={xsection4} alt="Logo" />
-                  <p className="pt-1">ACCURATE RESOURCE ALLOCATION</p>
+                  <p className="pt-1"><strong>ACCURATE RESOURCE ALLOCATION</strong></p>
                   <p className="sub d-none d-sm-block">Concrete insights into the skills present within the company and the level of strength in order to delegate people effectively</p>
                 </div>
               </div>

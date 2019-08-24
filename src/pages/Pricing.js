@@ -10,7 +10,6 @@ function Dashboard() {
     <div className="pricing-bg" style={{padding:0}}>
         <Container fluid={true} style={{padding:0}}>
           <h1 className="pt-5 pb-5 page-head">Pricing Plans</h1>
-
           <Row>
             <Col xs={12} md={9} sm={9} lg={9} className="pricing-plan ml-5 pl-5">
               <Row className="panel pricing-table">

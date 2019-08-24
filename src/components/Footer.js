@@ -34,7 +34,7 @@ function Footer() {
             </div>
             <div className="lower-part">
                 <div className="d-flex flex-row justify-content-center">
-                    <Link href="/terms-conditions" className="mr-5">Terms of Service</Link>
+                    <Link href="/terms-conditions" className="mr-5">Terms & Conditions</Link>
                     <Link href="/privacy-policy" className="ml-5">Privacy Policy</Link>
                 </div>
                 <div className="d-flex flex-row justify-content-center copyright">

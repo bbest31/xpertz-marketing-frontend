@@ -71,27 +71,27 @@ function DashCarousel(){
             </Carousel.Item>
         );
 
-        cs.push(
-            <Carousel.Item className="dashboard-carousel-item" key="0">
-                <div className="d-flex flex-row justify-content-center flex-wrap">
-                    <div className="d-flex col-xs-12 col-md-6 flex-column justify-content-center">
-                        <div>
-                            <img className="d-inline w-100 slider_image" src={window.location.origin +"/images/slide4.png"} alt="First slide" />
-                            {/* https://via.placeholder.com/800x500 */}
-                        </div>
-                    </div>
-                    <div className="d-flex col-xs-12 col-md-6 flex-column justify-content-center">
-                        <div className="carousel-text">
-                           <p className="title">Valuable Insights</p>
-                           <hr></hr>
-                           <p className="desc">
-                           Insights into your skill set economy of to make data driven decisions for hiring, project assignment and investing in your staff
-                           </p>
-                        </div>
-                    </div>
-                </div>
-            </Carousel.Item>
-        );
+        // cs.push(
+        //     <Carousel.Item className="dashboard-carousel-item" key="0">
+        //         <div className="d-flex flex-row justify-content-center flex-wrap">
+        //             <div className="d-flex col-xs-12 col-md-6 flex-column justify-content-center">
+        //                 <div>
+        //                     <img className="d-inline w-100 slider_image" src={window.location.origin +"/images/slide4.png"} alt="First slide" />
+        //                     {/* https://via.placeholder.com/800x500 */}
+        //                 </div>
+        //             </div>
+        //             <div className="d-flex col-xs-12 col-md-6 flex-column justify-content-center">
+        //                 <div className="carousel-text">
+        //                    <p className="title">Valuable Insights</p>
+        //                    <hr></hr>
+        //                    <p className="desc">
+        //                    Insights into your skill set economy of to make data driven decisions for hiring, project assignment and investing in your staff
+        //                    </p>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </Carousel.Item>
+        // );
     //}
     return(
         <div className="dashboard-carousel">

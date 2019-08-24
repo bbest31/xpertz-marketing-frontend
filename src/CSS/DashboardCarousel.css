@@ -3,7 +3,7 @@
 }
 .dashboard-carousel-item img{
     width: 60% !important;
-    height: 250px;
+    height: auto;
     /* box-shadow: 18px 11px 7px #163D71; */
 }
 
