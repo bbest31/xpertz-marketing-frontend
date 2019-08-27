@@ -91,7 +91,7 @@ function Dashboard() {
                 <div className="x-section">
                   <img src={xsection2}/>
                   <p className="pt-1"><strong>ANALYTICS INTO COLLABORATION EFFORTS</strong></p>
-                  <p className="sub d-none d-sm-block">quickly identify the skills in high demand for targeting in your recruitment</p>
+                  <p className="sub d-none d-sm-block">Quickly identify the skills in high demand for targeting in your recruitment</p>
                 </div>
               </div>
               <div className="d-flex flex-row justify-content-center">
